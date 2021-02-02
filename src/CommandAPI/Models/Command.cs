@@ -6,7 +6,7 @@ namespace CommandAPI.Models
     {
         [Key]
         [Required]
-        public int id { get; set; }
+        public int Id { get; set; }
         [Required]
         [MaxLength(250)]
         public string HowTo {get;set;}
