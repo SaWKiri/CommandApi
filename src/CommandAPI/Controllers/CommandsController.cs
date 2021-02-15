@@ -32,6 +32,7 @@ namespace CommandAPI.Controllers
                 return NotFound();
             }
             return Ok(commandItem);
+            
         }
 
     }
